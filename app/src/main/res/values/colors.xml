@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="header_red_BC2A2A">#BC2A2A</color>
+    <color name="header_red_D74F4F">#D74F4F</color>
+
+    <color name="pokemon_white">#FFFFFF</color>
+    <color name="pokemon_black">#000000</color>
+
+    <color name="pokemon_gray">#808080</color>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pokemon_detailedview_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/pokemon_header_height"
+    android:background="@drawable/header_gradient">
+
+    <ImageView
+        android:id="@+id/pokemon_back_button_icon"
+        android:layout_width="@dimen/pokemon_header_back_dimension"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/header_icon_margin_10DP"
+        android:src="@drawable/back_button_selector"/>
+
+
+    <TextView
+        android:id="@+id/pokemon_layout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/header_margin_30DP"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/pokemon_detail_header_title"
+        android:textColor="@color/pokemon_white"
+        android:textSize="@dimen/text_size_20sp"
+        />
+    
+
+</RelativeLayout>

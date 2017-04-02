@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Pokemon List</string>
+
+    <string name="pokemon_header_title">Pokemon List</string>
+    <string name="pokemon_detail_header_title">Pokemon Details</string>
+
+    <string name="pokemon_name">Name: </string>
+    <string name="pokemon_height">Height: </string>
+    <string name="pokemon_weight">Weight: </string>
+    <string name="pokemon_types">Types: </string>
+
+</resources>

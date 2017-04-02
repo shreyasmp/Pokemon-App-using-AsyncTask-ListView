@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pokemon_white">
+
+    <include
+        android:id="@+id/pokemon_list_detail_header_layout"
+        layout="@layout/pokemon_listdetail_title_layout"/>
+
+    <ImageView
+        android:id="@+id/pokemon_front_sprite"
+        android:layout_width="@dimen/sprite_image_width"
+        android:layout_height="@dimen/sprite_image_height"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pokemon_list_detail_header_layout"/>
+
+    <TextView
+        android:id="@+id/pokemon_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pokemon_black"
+        android:textSize="@dimen/text_size_18sp"
+        android:layout_below="@+id/pokemon_front_sprite"
+        android:padding="@dimen/header_icon_margin_10DP"
+        />
+
+    <TextView
+        android:id="@+id/pokemon_detail_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pokemon_black"
+        android:textSize="@dimen/text_size_18sp"
+        android:layout_below="@+id/pokemon_detail_name"
+        android:padding="@dimen/header_icon_margin_10DP"/>
+
+    <TextView
+        android:id="@+id/pokemon_detail_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pokemon_black"
+        android:textSize="@dimen/text_size_18sp"
+        android:layout_below="@+id/pokemon_detail_height"
+        android:padding="@dimen/header_icon_margin_10DP"/>
+
+    <TextView
+        android:id="@+id/pokemon_detail_types"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pokemon_black"
+        android:textSize="@dimen/text_size_18sp"
+        android:layout_below="@+id/pokemon_detail_weight"
+        android:padding="@dimen/header_icon_margin_10DP"/>
+
+</RelativeLayout>

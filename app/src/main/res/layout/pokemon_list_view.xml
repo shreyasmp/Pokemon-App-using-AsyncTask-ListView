@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/pokemon_white">
+
+<include
+    android:id="@+id/pokemon_list_header_layout"
+    layout="@layout/pokemon_listview_title_layout"/>
+
+
+<ListView
+    android:layout_below="@id/pokemon_list_header_layout"
+    android:id="@+id/pokemon_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pokemon_white"
+    android:divider="@color/pokemon_gray"
+    android:dividerHeight="@dimen/list_divider_height_1DP"
+    android:paddingStart="@dimen/header_icon_margin_10DP"
+    android:paddingEnd="@dimen/header_icon_margin_10DP"
+    >
+
+</ListView>
+
+
+</RelativeLayout>
